@@ -1,2 +1,10 @@
 # Smart_Parking_System
 A smart parking system utilizes sensors and technology to streamline parking by providing real-time information on available spaces, optimizing efficiency and reducing congestion for a convenient parking experience.
+
+Introduction:
+These days, finding parking in crowded cities is a major problem. Not enough parking spaces, yet too many cars on the road. A major issue arises when we arrive at a parking lot and discover that there are no available spots for us to park our cars. In crucial moment our inability to locate an empty parking space after arriving at a large parking area is another major issue. Perhaps these are the two issues that we have all occasionally faced, wasting valuable time. In order to provide clear and simple parking, all parking places must have effective parking management systems.
+To solve this issue, we had to build the "Smart Parking System Project". This project provides precise information on parking space availability, allowing drivers to park their cars as quickly as possible.
+
+Concept for the Smart Parking System Project:
+This smart parking system project consists of an Arduino, six IR sensors, one servo motor and one LCD screen. Where Arduino is the main microcontroller that controls the whole system. Entry and exit gates use two IR sensors to detect vehicle entry and exit in the parking area. The remaining four IR sensors are used to detect the presence of a parking space. A servo motor is placed in the entrance, which is used to open and close the gate, and an LCD screen shows the availability of the parking area.
+When a car arrives at the parking area's gate, the display continuously displays the number of available spots. If there are any empty slots, the system uses the servo motor to open the entry gate. When the car enters the parking area and occupies a slot, the display indicates that the slot is full. If there are no available parking spaces, the system displays that all slots are full and does not open the gate.
